@@ -1,0 +1,23 @@
+**/bin/
+**/obj/
+.vs/
+TestResults/
+artifacts/
+*.db
+*.db-shm
+*.db-wal
+# Visual Studio / .NET
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Test and coverage output
+TestResults/
+coverage/
+coverage.*
+
+# macOS archive metadata
+.DS_Store
+._*
+__MACOSX/
