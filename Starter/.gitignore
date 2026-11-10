@@ -1,23 +1,23 @@
+# macOS archive metadata from the supplied ZIP
+__MACOSX/
+.DS_Store
+._*
+
+# Local IDE and build output
+.vs/
+**/.vs/
 **/bin/
 **/obj/
-.vs/
 TestResults/
 artifacts/
-*.db
-*.db-shm
-*.db-wal
-# Visual Studio / .NET
+coverage/
+coverage.*
 *.user
 *.suo
 *.userosscache
 *.sln.docstates
 
-# Test and coverage output
-TestResults/
-coverage/
-coverage.*
-
-# macOS archive metadata
-.DS_Store
-._*
-__MACOSX/
+# Local database files
+*.db
+*.db-shm
+*.db-wal
